@@ -6,6 +6,8 @@ const movies = [
     { id: 5, title: 'War of the Stars', tags: ['sci-fi', 'space', 'adventure'] }
 ]
 
+'string'.split(0,1, "<mk>")
+
 function convertString(str){
     return str.toLowerCase().replaceAll(" ", "")
 }
